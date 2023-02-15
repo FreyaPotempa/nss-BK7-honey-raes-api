@@ -53,7 +53,7 @@
     {
       "id": 2,
       "address": "56849 Fadel Gateway",
-      "phoneNumber": "202-244-7090",
+      "phoneNumber": "",
       "userId": 1
     },
     {
@@ -66,8 +66,8 @@
   "employees": [
     {
       "id": 1,
-      "specialty": "PC Repair",
-      "rate": 72.47,
+      "specialty": "PC & Mac Repairs",
+      "rate": 90,
       "userId": 4
     },
     {
@@ -81,6 +81,12 @@
       "specialty": "Printer Repair",
       "rate": 29.45,
       "userId": 6
+    },
+    {
+      "id": 4,
+      "specialty": "Coffee Spill Oopsies",
+      "rate": 59.27,
+      "userId": 7
     }
   ],
   "serviceTickets": [
@@ -101,7 +107,7 @@
     {
       "id": 3,
       "userId": 1,
-      "description": "Sunt pariatur et quidem hic voluptatem. Neque aliquam voluptas eos incidunt repellendus. Vero expedita non sit quaerat sit et eum. Quasi dolor voluptatem illum eum qui est expedita sequi accusamus.",
+      "description": "I spilled coffee inside my printer",
       "emergency": false,
       "dateCompleted": ""
     },
@@ -115,9 +121,16 @@
     {
       "id": 5,
       "userId": 1,
-      "description": "Pariatur nihil animi eos doloremque laborum fugiat consequuntur iusto. Et tempore a enim.",
+      "description": "My computer won't stop showing me pop ups!",
       "emergency": true,
       "dateCompleted": "Fri Apr 29 2022 21:24:29 GMT-0500 (Central Daylight Time)"
+    },
+    {
+      "userId": 3,
+      "description": "My thingy broked",
+      "emergency": true,
+      "dateCompleted": "",
+      "id": 7
     }
   ],
   "employeeTickets": [
